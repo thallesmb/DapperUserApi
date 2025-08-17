@@ -1,4 +1,5 @@
-﻿using DapperUserApi.Services;
+﻿using DapperUserApi.Models;
+using DapperUserApi.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DapperUserApi.Controllers
@@ -23,6 +24,17 @@ namespace DapperUserApi.Controllers
                 return NotFound();
 
             return Ok(users);
+        }
+
+        [HttpGet("{userId}")]
+        public async Task<IActionResult> GetUserById(int userId)
+        {
+            var user = await _userInterface.GetUserById(userId);
+
+            if (user.Status == false)
+                return NotFound();
+
+            return Ok(user);
         }
     }
 }
