@@ -1,6 +1,6 @@
 # DapperUserApi
 
-Este projeto é uma API RESTful desenvolvida com **ASP.NET Core** e **Dapper**, com o objetivo de gerenciar um acervo de livros e seus respectivos autores.
+Este projeto é uma API RESTful desenvolvida com **.NET 9**, **Dapper** e **SQL Server**, com o objetivo de gerenciar um acervo de livros e seus respectivos autores.
 
 ## 🚀 Funcionalidades
 
