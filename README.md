@@ -1,6 +1,6 @@
 # DapperUserApi
 
-Este projeto é uma API RESTful desenvolvida com **.NET 9**, **Dapper** e **SQL Server**, com o objetivo de gerenciar um acervo de livros e seus respectivos autores.
+Este projeto é uma API RESTful desenvolvida com **.NET 9**, **Dapper** e **SQL Server**, com o objetivo de gerenciar funcionários.
 
 ## 🚀 Funcionalidades
 
@@ -39,7 +39,7 @@ Este projeto é uma API RESTful desenvolvida com **.NET 9**, **Dapper** e **SQL 
 
 # 🔹 Endpoints
 
-| Método | Endpoint        | Descrição                     |
+| Método | Endpoint       | Descrição                     |
 |--------|----------------|-------------------------------|
 | GET    | /users         | Retorna a lista de usuários.  |
 | GET    | /users/{id}    | Retorna um usuário pelo ID.   |
